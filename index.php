@@ -1,3 +1,6 @@
+<?php 
+include("php/query.php");
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -58,7 +61,7 @@
                 <a href="#service" class="nav-item nav-link">Services</a>
             </div>
             <a href="index.html" class="navbar-brand bg-secondary py-3 px-4 mx-3 d-none d-lg-block">
-                <h1 class="text-primary fw-bold m-0">ProMan</h1>
+                <h1 class="text-primary fw-bold m-0">Mohadis Ahmed</h1>
             </a>
             <div class="navbar-nav me-auto py-0">
                 <a href="#project" class="nav-item nav-link">Projects</a>
@@ -245,27 +248,27 @@
                         <div id="tab-1" class="tab-pane fade show p-0 active">
                             <div class="row gy-5 gx-4">
                                 <div class="col-sm-6">
-                                    <h5>UI Designer</h5>
+                                    <h5>UI/UX Designer</h5>
                                     <hr class="text-primary my-2">
-                                    <p class="text-primary mb-1">2000 - 2045</p>
+                                    <p class="text-primary mb-1">2020 - 2021</p>
                                     <h6 class="mb-0">Apex Software Inc</h6>
                                 </div>
                                 <div class="col-sm-6">
-                                    <h5>Web Developer</h5>
+                                    <h5>Frontend Designer</h5>
                                     <hr class="text-primary my-2">
-                                    <p class="text-primary mb-1">2000 - 2045</p>
+                                    <p class="text-primary mb-1">2021 - 2022</p>
                                     <h6 class="mb-0">Apex Software Inc</h6>
                                 </div>
                                 <div class="col-sm-6">
-                                    <h5>Web Designer</h5>
+                                    <h5>Backend Developer</h5>
                                     <hr class="text-primary my-2">
-                                    <p class="text-primary mb-1">2000 - 2045</p>
+                                    <p class="text-primary mb-1">2022 - 2023</p>
                                     <h6 class="mb-0">Apex Software Inc</h6>
                                 </div>
                                 <div class="col-sm-6">
-                                    <h5>FullStack Developer</h5>
+                                    <h5>Data Base Manager</h5>
                                     <hr class="text-primary my-2">
-                                    <p class="text-primary mb-1">2000 - 2045</p>
+                                    <p class="text-primary mb-1">2023 - 2024</p>
                                     <h6 class="mb-0">Apex Software Inc</h6>
                                 </div>
                             </div>
@@ -324,7 +327,7 @@
                             <i class="fa fa-crop-alt fa-2x text-dark"></i>
                         </div>
                         <div class="ms-sm-4">
-                            <h4 class="mb-3">Creative Design</h4>
+                            <h4 class="mb-3">Frontend Design</h4>
                             <h6 class="mb-3">Start from <span class="text-primary">$199</span></h6>
                             <span>Stet lorem dolor diam amet vero eos. No stet est diam amet diam ipsum. Clita dolor duo clita sit sed sit dolor eos.</span>
                         </div>
@@ -336,8 +339,8 @@
                             <i class="fa fa-code-branch fa-2x text-dark"></i>
                         </div>
                         <div class="ms-sm-4">
-                            <h4 class="mb-3">Data Base</h4>
-                            <h6 class="mb-3">Start from <span class="text-primary">$199</span></h6>
+                            <h4 class="mb-3">Data Base Management</h4>
+                            <h6 class="mb-3">Start from <span class="text-primary">$250</span></h6>
                             <span>Stet lorem dolor diam amet vero eos. No stet est diam amet diam ipsum. Clita dolor duo clita sit sed sit dolor eos.</span>
                         </div>
                     </div>
@@ -348,8 +351,8 @@
                             <i class="fa fa-code fa-2x text-dark"></i>
                         </div>
                         <div class="ms-sm-4">
-                            <h4 class="mb-3">Web Design</h4>
-                            <h6 class="mb-3">Start from <span class="text-primary">$199</span></h6>
+                            <h4 class="mb-3">Backend Development</h4>
+                            <h6 class="mb-3">Start from <span class="text-primary">$300</span></h6>
                             <span>Stet lorem dolor diam amet vero eos. No stet est diam amet diam ipsum. Clita dolor duo clita sit sed sit dolor eos.</span>
                         </div>
                     </div>
@@ -390,7 +393,7 @@
             <div class="row g-4 portfolio-container wow fadeInUp" data-wow-delay="0.1s">
                 <div class="col-lg-4 col-md-6 portfolio-item first">
                     <div class="portfolio-img rounded overflow-hidden">
-                        <img class="img-fluid" src="img/project-1.jpg" alt="">
+                        <img class="img-fluid" src="img/Capture.PNG" alt="">
                         <div class="portfolio-btn">
                             <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-1.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                             <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
@@ -399,7 +402,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 portfolio-item second">
                     <div class="portfolio-img rounded overflow-hidden">
-                        <img class="img-fluid" src="img/project-2.jpg" alt="">
+                        <img class="img-fluid" src="img/Capture(2).PNG" alt="">
                         <div class="portfolio-btn">
                             <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-2.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                             <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
@@ -408,7 +411,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 portfolio-item first">
                     <div class="portfolio-img rounded overflow-hidden">
-                        <img class="img-fluid" src="img/project-3.jpg" alt="">
+                        <img class="img-fluid" src="img/Capture(3).PNG" alt="">
                         <div class="portfolio-btn">
                             <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-3.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                             <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
@@ -417,7 +420,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 portfolio-item second">
                     <div class="portfolio-img rounded overflow-hidden">
-                        <img class="img-fluid" src="img/project-4.jpg" alt="">
+                        <img class="img-fluid" src="img/Capture(4).PNG" alt="">
                         <div class="portfolio-btn">
                             <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-4.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                             <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
@@ -426,7 +429,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 portfolio-item first">
                     <div class="portfolio-img rounded overflow-hidden">
-                        <img class="img-fluid" src="img/project-5.jpg" alt="">
+                        <img class="img-fluid" src="img/Capture(5).PNG" alt="">
                         <div class="portfolio-btn">
                             <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-5.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                             <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
@@ -435,7 +438,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 portfolio-item second">
                     <div class="portfolio-img rounded overflow-hidden">
-                        <img class="img-fluid" src="img/project-6.jpg" alt="">
+                        <img class="img-fluid" src="img/Capture(6).PNG" alt="">
                         <div class="portfolio-btn">
                             <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-6.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                             <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
@@ -581,7 +584,7 @@
             <div class="row g-5">
                 <div class="col-lg-5 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <p class="mb-2">My office:</p>
-                    <h3 class="fw-bold">Qayyumabad Karachi</h3>
+                    <h3 class="fw-bold">ST,'5' Sector'B' Qayyumabad Karachi</h3>
                     <hr class="w-100">
                     <p class="mb-2">Call me:</p>
                     <h3 class="fw-bold">+92 3272761467</h3>
@@ -599,34 +602,34 @@
                 </div>
                 <div class="col-lg-7 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <p class="mb-4">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a href="https://htmlcodex.com/contact-form">Download Now</a>.</p>
-                    <form>
+                    <form method = "post">
                         <div class="row g-3">
                             <div class="col-md-6">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                    <input type="text" class="form-control" name="name" id="name" placeholder="Your Name">
                                     <label for="name">Your Name</label>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-floating">
-                                    <input type="email" class="form-control" id="email" placeholder="Your Email">
+                                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email">
                                     <label for="email">Your Email</label>
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control" id="subject" placeholder="Subject">
-                                    <label for="subject">Subject</label>
+                                    <input type="tel" class="form-control" name="phone" id="phonenumber" placeholder="Your Phone Number">
+                                    <label for="subject">Phone</label>
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="form-floating">
-                                    <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 100px"></textarea>
+                                    <textarea name="message"  class="form-control" placeholder="Leave a message here" id="message" style="height: 100px"></textarea>
                                     <label for="message">Message</label>
                                 </div>
                             </div>
                             <div class="col-12">
-                                <button class="btn btn-primary py-3 px-5" type="submit">Send Message</button>
+                                <button class="btn btn-primary py-3 px-5" name="sendmessage" type="submit">Send Message</button>
                             </div>
                         </div>
                     </form>
@@ -638,7 +641,7 @@
 
 
     <!-- Map Start -->
-    <div class="container-xxl pt-5 px-0 wow fadeInUp" data-wow-delay="0.1s">
+    <!-- <div class="container-xxl pt-5 px-0 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container-xxl pt-5 px-0">
             <div class="bg-dark">
                 <iframe
@@ -647,7 +650,7 @@
                 tabindex="0"></iframe>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Map End -->
 
 
@@ -656,7 +659,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a class="border-bottom text-secondary" href="#">Your Site Name</a>, All Right Reserved.
+                        &copy; <a class="border-bottom text-secondary" href="#">Your Site Name</a>, All Right Reserved @2022.
                     </div>
                     <div class="col-md-6 text-center text-md-end">
                         <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
