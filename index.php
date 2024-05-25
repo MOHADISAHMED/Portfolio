@@ -595,7 +595,7 @@ include("php/query.php");
                     <p class="mb-2">Follow me:</p>
                     <div class="d-flex pt-2">
                         <a class="btn btn-square btn-primary me-2" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-square btn-primary me-2" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-primary me-2" href="https://www.facebook.com/profile.php?id=100010423459409" target="_blank"><i class="fab fa-facebook-f"></i></a>
                         <a class="btn btn-square btn-primary me-2" href=""><i class="fab fa-youtube"></i></a>
                         <a class="btn btn-square btn-primary me-2" href=""><i class="fab fa-linkedin-in"></i></a>
                     </div>
